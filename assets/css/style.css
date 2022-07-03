@@ -1,7 +1,30 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size: 40px;
+}
+
+
+#welcome-section{
+    display: flex;
+    vertical-align: middle;
+    background-image: url(/assets/images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    align-items: center;
+    
+}
+
+.half-width{
+    align-items: center;
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 70%;
+    padding: 5%;
+    align-content: center;
 }
