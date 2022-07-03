@@ -24,7 +24,7 @@ h2{
 #welcome-section{
     display: flex;
     vertical-align: middle;
-    background-image: url(../assets/images/top-banner.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-position: cover;
     align-items: center;
@@ -38,7 +38,7 @@ h2{
 #dream-big-section{
     display: flex;
     vertical-align: middle;
-    background-image: url(../assets/images/dream-bg.png);
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     align-items: center;
@@ -52,7 +52,7 @@ h2{
 
 #experience-section{
     vertical-align: middle;
-    background-image: url(./assets/images/exp-bg.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     align-items: center;
