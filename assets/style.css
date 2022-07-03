@@ -63,6 +63,22 @@ h2{
 
 }
 
+
+#contact{
+    display: flex;
+    vertical-align: middle;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: center;
+    background-color: #ececec;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
 .half-width{
     align-items: center;
     width: 50%;
@@ -96,6 +112,9 @@ h2{
     color: orange;
 }
 
+.blueviolet-color{
+    color: blueviolet;
+}
 
 .experience-item{
     width: 46%;
@@ -112,6 +131,70 @@ h2{
 }
 #baby-dev{
     border-left: 10px solid blue;
+}
+
+.social_icons{
+    display: flex;
+    background-color: blueviolet;
+    margin: 10px 3px 10px 3px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.social_icons img{
+ margin: 5px;
+}
+.social_icons:hover{
+    background-color: orange;
+    transition-duration: 300ms;
+}
+
+
+.contact-form{
+    background-color: white;
+    padding: 40px 60px 40px 60px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+input{
+    width: 96%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid rgb(205, 205, 205);
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+input:hover{
+    border: 1px solid orange;
+
+}
+
+textarea{
+    width: 96%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid rgb(205, 205, 205);
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+textarea:hover{
+    border: 1px solid orange;
+
+}
+
+.btn-center{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 
