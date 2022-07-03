@@ -16,6 +16,8 @@ h1{
     background-position: cover;
     align-items: center;
     padding: 50px 0;
+    padding-left: 6%;
+
     
 }
 
@@ -28,6 +30,8 @@ h1{
     align-items: center;
     padding: 50px 0;
     background-color: #f6f6f6;
+    padding-right: 6%;
+    padding-left: 6%;
 
 }
 
@@ -39,7 +43,6 @@ h1{
 .half-width img{
     width: 70%;
     padding: 1%;
-    align-content: center;
 }
 
 
@@ -51,10 +54,11 @@ h1{
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 4px 5px 0px 0px rgb(240, 192, 103);
 }
 
 .link-btn:hover{
     background-image: linear-gradient(to left, orange, tomato);
     transition-duration: 500ms;
-    box-shadow: 0px 5px 10px 0px rgba(241, 130, 3, 0.25);
+    box-shadow: none;
 }
