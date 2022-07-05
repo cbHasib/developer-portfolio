@@ -87,6 +87,10 @@ h2{
 .half-width img{
     width: 75%;
     padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
@@ -99,6 +103,7 @@ h2{
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 4px 5px 0px 0px rgb(240, 192, 103);
+    transition-duration: 500ms;
 }
 
 .link-btn:hover{
@@ -128,9 +133,19 @@ h2{
 }
 #full-stack-dev{
     border-left: 10px solid orange;
+    transition-duration: 400ms;
+}
+#full-stack-dev:hover{
+    border-left: 10px solid blue;
+    transition-duration: 400ms;
 }
 #baby-dev{
     border-left: 10px solid blue;
+    transition-duration: 400ms;
+}
+#baby-dev:hover{
+    border-left: 10px solid orange;
+    transition-duration: 400ms;
 }
 
 .social_icons{
@@ -140,6 +155,8 @@ h2{
     width: 35px;
     height: 35px;
     border-radius: 100%;
+    transition-duration: 300ms;
+
 }
 .social_icons img{
  margin: 5px;
